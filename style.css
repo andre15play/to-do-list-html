@@ -1,0 +1,97 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Botão de adicionar */
+button.addButton {
+    background-color: #3b82f6;
+    color: white;
+}
+
+button.addButton:hover {
+    background-color: #2563eb;
+}
+
+/* Botão editar */
+button.editButton {
+    background-color: #fbbf24;
+    color: #1f2937;
+}
+
+button.editButton:hover {
+    background-color: #f59e0b;
+}
+
+/* Botão excluir */
+button.deleteButton {
+    background-color: #ef4444;
+    color: white;
+}
+
+button.deleteButton:hover {
+    background-color: #dc2626;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #e5e7eb;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #d1d5db;
+}
+
+li span {
+    flex: 1;
+    text-align: left;
+    word-break: break-word;
+}
